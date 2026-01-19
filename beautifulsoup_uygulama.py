@@ -7,7 +7,7 @@ init(autoreset=True)
 
 
 
-#https://dergipark.org.tr/tr/pub/sdufenbed/aarticle/1073504
+https://dergipark.org.tr/tr/pub/sdufenbed/aarticle/1511196
 
 headers =
 "User-Agent" : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
@@ -70,4 +70,5 @@ df =pd.DataFrame(makale_verisi)
 
 #Excel olarak kaydetme
 df.to_excel("Makale_Listesi.xlsx" , index=False)
+
 print(Fore.LIGHTGREEN_EX +"\n BAŞARILI: Veriler Excel dosyasına kaydedildi.")
